@@ -1,7 +1,12 @@
 # Eureka Server Initialization
-1 Create normal springBoot application
-    
-2 Add Eureka Server depandancy to pom file
+1 Create normal springBoot application using start.spring.io
+    https://start.spring.io/
+
+2 Add Eureka Server dependency to pom file
+`   <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>`
     
 3 Annotate the main class with @EnableEurekaServer 
     
@@ -14,4 +19,5 @@
         eureka.client.register-with-eureka=false
         eureka.client.service-url.defaultZone = http://${eureka.instance.hostname}:${spring.port}/eureka
     
-5 finally run the application and open brower call localhost:8010
+5 finally run the application and open browser call 
+    http://localhost:8010

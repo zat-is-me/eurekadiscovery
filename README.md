@@ -3,7 +3,8 @@
     https://start.spring.io/
 
 2 Add Eureka Server dependency to pom file
-`   <dependency>
+`   
+    <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
     </dependency>`

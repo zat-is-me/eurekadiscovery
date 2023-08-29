@@ -11,7 +11,7 @@
     
 3 Annotate the main class with @EnableEurekaServer 
     
-4 Configur application.properties file as following
+4 Configure application.properties file as following
         
         server.port=8010
         spring.application.name=discoveryservice

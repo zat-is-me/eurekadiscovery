@@ -2,8 +2,8 @@
 1 Create normal springBoot application using start.spring.io
     https://start.spring.io/
 
-2 Add Eureka Server dependency to pom file
-`   
+2 Add Eureka Server dependency to pom file 
+
     <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
